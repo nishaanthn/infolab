@@ -23,5 +23,5 @@ def print_tweets_structure(tweet_dict, tab_level=0):
       print_tweets_structure(tweet_dict[i], tab_level+1)
 
 if __name__ == "__main__":
-  in_file = "/home/vandana/workspace/Dropbox/codinggig/data/sample/geo.2013-08-26_23-45.txt"
+  in_file = "/media/Tinkerspace/hackathon/infolab/data/samples/ten_thousand.json"
   tweets = get_tweets(in_file)
